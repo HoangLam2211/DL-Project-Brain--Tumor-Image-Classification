@@ -1,5 +1,4 @@
 
-```markdown
 # Phân loại khối u não bằng mô hình VGG19
 
 Dự án này sử dụng mô hình VGG19 để phân loại hình ảnh khối u não từ một tập dữ liệu hình ảnh. Ứng dụng được xây dựng bằng Streamlit, cho phép người dùng tải lên hình ảnh và nhận dự đoán về việc có khối u hay không.
@@ -51,5 +50,5 @@ pip install tensorflow opencv-python streamlit
 
 ## Liên hệ
 
-Nếu bạn có bất kỳ câu hỏi nào về dự án này, hãy liên hệ với tôi qua email: [your-email@example.com](mailto:your-email@example.com).
+Nếu bạn có bất kỳ câu hỏi nào về dự án này, hãy liên hệ với tôi qua email: [vohoanglam2211@gmail.com](mailto:vohoanglam2211@gmail.com).
 ```
