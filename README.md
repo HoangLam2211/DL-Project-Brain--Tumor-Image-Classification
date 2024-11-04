@@ -1,32 +1,35 @@
 
-# Phân loại khối u não bằng mô hình VGG19
 
-Dự án này sử dụng mô hình VGG19 để phân loại hình ảnh khối u não từ một tập dữ liệu hình ảnh. Ứng dụng được xây dựng bằng Streamlit, cho phép người dùng tải lên hình ảnh và nhận dự đoán về việc có khối u hay không.
+---
 
-## Nội dung dự án
+# Brain Tumor Classification using the VGG19 Model
 
-- **Mô hình**: VGG19 được tinh chỉnh cho bài toán phân loại hình ảnh.
-- **Thư viện**: Sử dụng TensorFlow và Streamlit.
-- **Tập dữ liệu**: Các hình ảnh khối u não được chia thành hai lớp: 'yes' (có khối u) và 'no' (không có khối u).
+This project uses the VGG19 model to classify brain tumor images from an image dataset. The application is built using Streamlit, allowing users to upload images and receive predictions about the presence of a tumor.
 
-## Cài đặt
+## Project Overview
 
-### Yêu cầu
+- **Model**: VGG19 fine-tuned for image classification tasks.
+- **Libraries**: Utilizes TensorFlow and Streamlit.
+- **Dataset**: Brain tumor images are categorized into two classes: 'yes' (tumor present) and 'no' (tumor absent).
+
+## Installation
+
+### Requirements
 
 - Python 3.x
 - TensorFlow
 - OpenCV
 - Streamlit
 
-### Cài đặt thư viện
+### Install Libraries
 
 ```bash
 pip install tensorflow opencv-python streamlit
 ```
 
-## Cách sử dụng
+## Usage
 
-1. **Chuẩn bị tập dữ liệu**: Tạo một thư mục `data` với cấu trúc như sau:
+1. **Prepare the Dataset**: Create a directory named `data` with the following structure:
 
    ```
    data/
@@ -40,15 +43,16 @@ pip install tensorflow opencv-python streamlit
            ...
    ```
 
-2. **Chạy ứng dụng Streamlit**:
+2. **Run the Streamlit Application**:
 
    ```bash
    streamlit run brain_tumor_classification.py
    ```
 
-3. **Tải lên hình ảnh**: Sử dụng giao diện người dùng của Streamlit để tải lên hình ảnh và nhận dự đoán.
+3. **Upload Images**: Use the Streamlit user interface to upload images and receive predictions.
 
-## Liên hệ
+## Contact
 
-Nếu bạn có bất kỳ câu hỏi nào về dự án này, hãy liên hệ với tôi qua email: [vohoanglam2211@gmail.com](mailto:vohoanglam2211@gmail.com).
-```
+If you have any questions about this project, please contact me via email: [vohoanglam2211@gmail.com](mailto:vohoanglam2211@gmail.com).
+
+--- 
