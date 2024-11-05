@@ -84,7 +84,10 @@ pip install tensorflow opencv-python streamlit flask
 ## Contact
 
 If you have any questions about this project, please feel free to contact me via email: 
+
 [vohoanglam2211@gmail.com](mailto:vohoanglam2211@gmail.com).
+
 [doandangkhoa04@gmail.com](mailto:doandangkhoa04@gmail.com).
+
 ---
 
